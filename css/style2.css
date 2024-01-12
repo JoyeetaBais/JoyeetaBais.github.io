@@ -1,0 +1,78 @@
+body {
+    background-color: #EFE7DA;
+    
+}
+
+.navbar .container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-child {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem;
+    color: #854628;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-basis: 45%;
+    width: 100%;
+    cursor: pointer;
+    top: 0px; 
+    width: 100%; 
+    z-index: 10;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-main .container{
+    padding: 0rem 8rem;
+    align-items: center;
+  }
+.site-main .site-banner .site-title h3{
+padding-top: 20%;
+font-weight: 500;
+color: var(--title-color);
+}
+
+.site-main .site-banner .site-title h1{
+font-size: 4rem;
+color: var(--title-color);
+}
+.site-main .site-banner .site-title h4{
+font-size: 1.5rem;
+color: var(--title-color);
+}
+.site-main .site-banner .banner-image >img{
+padding: 2rem 1rem;
+width: 30rem;
+}
+  
+  
+  
+  /* end banner area */
+  
+  /* start about area */
+.site-main .about-area{
+padding: 6rem 8rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+display: block;
+font: normal bold 49x/60px;
+letter-spacing: 21px;
+color: whitesmoke;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+padding: 0.2rem 0;
+color: white;
+}
+
+  
